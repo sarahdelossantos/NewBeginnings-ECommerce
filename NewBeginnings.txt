@@ -1,0 +1,73 @@
+CREATE DATABASE NewBeginnings;
+
+USE NewBeginnings;
+
+id, name, type, price, description, img_url
+
+
+---STORAGE SOLUTIONS-----
+Bayern_Sideboard, Storage Solutions, 2500.00, Dark Walnut Finish,
+Sideboard_Mahogany, Storage Solutions , 3000.00, Mahogany Finish
+Patoa_Storage__Bench_Teak, Storage Solutions, 4000.00, Teak Finish
+
+
+-----FLOOR LAMP-----
+Kepler_Tripod_FloorLamp, Lamp, 2000.00, Teakwood base. Height adjustable base.
+Drachen_Table_Lamp, Lamp, 2000.00, Antique Brass Finish, White Shade, Conical Shape.
+
+-----BED-----
+Lenox_Single_Bed, Bed, 5000.00, Single Bed Size, Graphite.
+Boston_Single_Bed, Bed, 4000.00, Teak Finish.
+Fitzroy_Bed_With_Trundle_and_Storage_Single, Bed, 5000.00, Single Bed Size, Dark Walnut Finish.
+
+CREATE TABLE items
+(id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(255) NOT NULL,
+type VARCHAR(255) NOT NULL,
+price INT NOT NULL,
+description VARCHAR(255) NOT NULL,
+img_url VARCHAR(255) NOT NULL,
+PRIMARY KEY(id)
+);
+
+
+
+---STORAGE SOLUTIONS-----
+'Bayern_Sideboard', 'Storage Solutions', '2500.00', 'Dark Walnut Finish',"images\items\Bayern_Sideboard.jpg"
+'Sideboard_Mahogany', 'Storage Solutions' , '3000.00', 'Mahogany Finish',"images\items\Sideboard_Mahogany.jpg"
+'Patoa_Storage__Bench_Teak', 'Storage Solutions', '4000.00', 'Teak Finish',"images\items\Patoa_Storage__Bench_Teak.jpg"
+
+
+-----FLOOR LAMP-----
+'Kepler_Tripod_FloorLamp', 'Lamp', '2000.00', 'Teakwood base, Height adjustable base',"images\items\Kepler_Tripod_FloodLamp.jpg"
+'Drachen_Table_Lamp', 'Lamp', '2000.00', 'Antique Brass Finish', 'White Shade', 'Conical Shape.',"images\items\Drachen_Table_Lamp.jpg"
+
+-----BED-----
+'Lenox_Single_Bed','Bed','5000.00', 'Single Bed Size, Graphite',"images\items\Lenox_Single_Bed.jpg"
+'Boston_Single_Bed', 'Bed', '4000.00', 'Teak Finish.',"images\items\Boston_Single_Bed"
+'Fitzroy_Bed_With_Trundle_and_Storage_Single', 'Bed', '5000.00', 'Single Bed Size, Dark Walnut Finish.',"images\items\Fitzroy_Bed_With_Trundle_and_Storage_Single.jpg"
+
+
+INSERT INTO items (name, type, price,description,img_url)
+VALUES ('Bayern_Sideboard', 'Storage Solutions', '2500.00', 'Dark Walnut Finish','images\items\Bayern_Sideboard.jpg');
+
+
+INSERT INTO items (name, type, price,description,img_url)
+VALUES
+('Kepler_Tripod_FloorLamp', 'Lamp', '2000.00', 'Teakwood base, Height adjustable base',"images\items\Kepler_Tripod_FloodLamp.jpg"),
+('Drachen_Table_Lamp, Lamp', '2000.00', 'Antique Brass Finish', 'White Shade', 'Conical' )
+;
+
+
+
+
+INSERT INTO `items`(`name`, `type`, `price`, `description`, `img_url`) VALUES
+('Kepler_Tripod_FloorLamp', 'Lamp', '2000.00', 'Teakwood base, Height adjustable base',"images\items\Kepler_Tripod_FloodLamp.jpg"),
+
+('Lenox_Single_Bed','Bed','5000.00', 'Single Bed Size, Graphite',"images\items\Lenox_Single_Bed.jpg"),
+
+('Boston_Single_Bed', 'Bed', '4000.00', 'Teak Finish.',"images\items\Boston_Single_Bed"),
+
+('Fitzroy_Bed_With_Trundle_and_Storage_Single', 'Bed', '5000.00', 'Single Bed Size Dark Walnut Finish.',"images\items\Fitzroy_Bed_With_Trundle_and_Storage_Single.jpg"),
+
+('Drachen_Table_Lamp', 'Lamp', '2000.00', 'Antique Brass Finish, White Shade, Conical Shape.',"images\items\Drachen_Table_Lamp.jpg");

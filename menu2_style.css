@@ -1,0 +1,80 @@
+body {
+	padding:0px;
+	margin::0px;
+}
+
+.red{
+	background-color: red;
+	height:auto;
+	width: auto;
+	text-align: center;
+	padding-left:auto;
+	padding-right:auto;
+	left: 21%;
+}
+
+.black{
+	background-color: black;
+	height: 100px;
+}
+
+.blue{
+	background-color: blue;
+	height: 100px;
+	position:fixed;
+	display: inline-block;
+
+}
+
+.green{
+	background-color: green;
+	height: 400px;
+	width: 300px;
+	overflow: auto;
+	margin: 1%;
+	text-align: center;
+	padding:auto;
+
+}
+
+.row1{
+	padding:0px;
+	margin: 0px;
+}
+
+[class*="col-"]{
+    padding:0px;
+	margin: 0px;
+}
+
+
+.container-fluid1{
+	padding-top :1%;
+	padding-bottom :1%
+	padding-left :1%;
+	padding-left :1%;
+	margin: 5%;
+}
+
+
+------------------------------------
+
+
+
+.items_img{
+	height:200px;
+	width: 200px;
+}
+
+.item_info{
+	overflow: auto;
+	background-color:grey;
+}
+
+.nomar{
+	margin:0px;
+}
+
+.nopad{
+	padding:0px;
+}

@@ -1,0 +1,489 @@
+@font-face {
+    font-family: 'AishaScript';
+    src: url(fonts/AishaScript.ttf);
+}
+
+@font-face {
+    font-family: Muli;
+    src: url(fonts/Muli-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'FRABK';
+    src: url(fonts/FRABK.ttf);
+}
+
+
+@font-face {
+    font-family: 'FRABKIT';
+    src: url(fonts/FRABKIT.ttf);
+}
+
+
+@font-face {
+    font-family: 'GranadaBluesPersonalUse';
+    src: url(fonts/GranadaBluesPersonalUse.ttf);
+}
+
+
+
+body{
+	/*background-color: red;*/
+	padding:0px;
+	margin:0px;
+	 font-family: 'FRABK';
+}
+
+.body-wrapper{
+	/*margin-left: 10%;
+	margin-right: 10%;*/
+}
+
+.myBanner {
+	background-color: #e6e6e6;
+
+	height: 100%;
+	width: auto;
+	padding:0px;
+	margin:0px;
+
+	background-image: url('images/design/banner1.jpg');
+	background-size: 100% 100%;
+}
+
+/*div.leftBanner{
+	background-color: gray;
+	width: 100px;
+	height: 300px;
+	overflow: hidden;
+
+}*/
+
+
+
+	
+
+.leftBanner{
+	color: orange;
+	background-color: rgba(0, 0, 0, .7);
+	background-size: cover;
+	top: 10%;	
+	height: 300px;
+	box-shadow: 1px 0px 20px rgb(0, 0, 0);
+		/*position: relative;;*/
+
+	/*width: 100%;*/
+	/*vertical-align: middle;*/
+	/*vertical-align: middle;*/
+
+	
+
+	/*right:0px;*/
+
+	/*overflow: auto 	;*/
+}
+
+div.leftBanner> div.text_newB {
+	/*font-size: 30px;*/
+	position: relative;
+	/*top: 10px;*/
+	font-size: 500%;
+	font-family: GranadaBluesPersonalUse;
+
+}
+
+.text{
+	position: relative;
+	top: 14%;
+
+}
+
+div.leftBanner> div.text_ts {
+	/*font-size: 10px;*/
+	position: relative;
+	/*top: 10px;*/
+	font-size: 100%;
+	font-family:FRABK;
+
+	
+
+}
+
+.myNav {
+	/*background-color:  #d9d9d9;*/
+	padding-left:0px;
+	margin:0px;
+	/*height: 100px;*/
+	overflow: visible;
+}
+
+.mySidebar{
+	background-color: #cccccc;
+}
+
+.myContent{
+	/*background-color:  #999999;*/
+	 background-color:rgba(255,140,0, 0.1);
+}
+}
+
+.sbAndContent{
+	background-color: #bfbfbf;
+	
+	padding:0px;
+	margin-top:5%;
+	
+}
+
+.contentNav{
+	font-size: 120%;
+	height: 20%;
+	padding:auto;
+	/*background-color: white;*/
+	
+
+
+
+}
+
+.cat_item{
+	text-align: center;
+
+}
+
+.cat_item>a{
+	padding:auto;
+}
+
+.cat_item:active{
+	background-color:red;
+	color:red;
+}
+
+.myFooter{
+	/*background-color: #d9d9d9;*/
+	height: 200px;
+	padding:0px;
+	margin:0px;
+		background-color: rgba(0, 0, 0, .7);
+	background-image: url('images/design/pattern_snow.png');
+	/*opacity: 0.3.l;*/
+}
+
+/*ul.categories > li.cat_item> a.active{
+	background-color: red;
+}
+*/
+.row1{
+	padding:0px;
+	margin:0px;
+}
+
+.container-fluid1{
+	padding:0px;
+	margin:0px;
+}	
+
+.body_content{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0.5%;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: 1px solid orange;
+    color: orange;
+    text-align: center;
+     background: transparent;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+hr.style-two {
+    border: 0;
+    height: 2px;
+    width: 50%;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 140, 26, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style4 {
+	border-top: 1px dotted rgb(102, 68, 0);
+}
+	
+
+div.contentNav> ul {
+	text-align: left;
+}
+
+div.contentNav{
+
+	background-color: #f1f5f9;
+	/*border-radius: 10px;*/
+}
+
+hr.style-4-1 {
+	border-top: 1px dotted rgb(102, 68, 0);
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+ul>li.cat_item>a{
+	color:black;
+}
+
+
+#navmargin{
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+/*----------------------------login*/
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 768px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+
+	.green{
+
+	background-color: green;
+	text-align: center;
+	margin:0.5% 0.5%;
+
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width:100%;
+	
+
+	}
+
+.items_img{
+	height:80%;
+	width:80%;
+	margin: 0 auto;
+}
+
+    .leftBanner{
+	color: orange;
+	background-color: rgba(0, 0, 0, .7);
+	background-size: cover;
+	position: relative;
+	top:-10px;		
+	height: 300px;
+	box-shadow: 1px 0px 20px rgb(0, 0, 0);
+		/*position: relative;;*/
+
+	/*width: 100%;*/
+	/*vertical-align: middle;*/
+	/*vertical-align: middle;*/
+
+	
+
+	/*right:0px;*/
+
+	/*overflow: auto 	;*/
+	}
+
+
+
+
+}
+
+/*--------------login end*/
+
+.contentarea{
+
+	background-color: transparent;
+}
+
+.items_img{
+	height:80%;
+	width:80%;
+	margin: 0 auto;
+}
+
+.green{
+
+	/*background-color: #f2f2f2;*/
+	text-align: center;
+	margin:0.5% 0.5%;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width:32%;
+	background-image: url('images/design/pattern1.jpg');
+	/*border-radius: 1%;	*/
+	height: auto;
+
+	/*box-shadow: 0.5px 1px 0.1px black;*/
+
+
+}
+
+span.name{
+	color:#262626;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+
+.quantity{
+	margin:10px;
+
+}
+
+.regusers{
+
+	background-color:#ff6600;
+	height: 150px;
+	margin: 10px 10px;
+	/*color: black;*/
+	text-align:center;
+	padding:auto;
+	border-radius: 10px;
+
+}
+
+.item_info {
+		/*background-color:#f2d9d9;*/
+		margin: 2% 2%;
+		
+			/*background-image: url('images/design/banner1.jpg');	*/
+		}
+
+.footer{
+	margin-top: 5%;
+}

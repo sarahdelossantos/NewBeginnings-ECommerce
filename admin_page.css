@@ -1,0 +1,63 @@
+/*.regusers{
+
+	background-color:#ff6600;
+	height: 150px;
+	margin: 10px 10px;
+	color: black;
+	text-align:center;
+	padding:auto;
+	border-radius: 5px;
+
+}
+
+.addform{
+	background-color:red;
+
+}
+*/
+
+ tr:hover {
+          background-color: #ffff99;
+        }
+
+        
+.nopad{
+	padding:0px;
+}
+
+.nomar{
+	margin:0px;
+}
+
+.navbar-right li a {
+  text-align: right;
+}
+
+div#left-sidebar{
+  position:absolute;
+  top:0;
+  left:0;
+  width:<length>;
+  height:100%;
+ }
+
+ @media screen{
+  body>div#left-sidebar{
+   position:fixed;
+  }
+ }
+
+ .fixed{
+ 	position: fixed;
+ }
+.whole_page{
+	margin-top: 100px;
+}
+
+body{
+	padding:0px;
+}
+
+.regusers{
+	width: 90%;
+}
